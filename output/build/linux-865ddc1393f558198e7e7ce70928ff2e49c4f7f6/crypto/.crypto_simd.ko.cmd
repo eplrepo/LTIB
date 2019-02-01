@@ -1,0 +1,1 @@
+cmd_crypto/crypto_simd.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o crypto/crypto_simd.ko crypto/crypto_simd.o crypto/crypto_simd.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/shtc1.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/shtc1.ko drivers/hwmon/shtc1.o drivers/hwmon/shtc1.mod.o ;  true

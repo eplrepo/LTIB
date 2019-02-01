@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/cx231xx/cx231xx-alsa.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/usb/cx231xx/cx231xx-alsa.o drivers/media/usb/cx231xx/cx231xx-audio.o 

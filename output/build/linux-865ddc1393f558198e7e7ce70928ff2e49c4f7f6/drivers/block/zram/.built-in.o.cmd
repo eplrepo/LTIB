@@ -1,0 +1,1 @@
+cmd_drivers/block/zram/built-in.o :=  rm -f drivers/block/zram/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/block/zram/built-in.o

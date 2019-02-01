@@ -1,0 +1,1 @@
+cmd_lib/zstd/zstd_decompress.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o lib/zstd/zstd_decompress.ko lib/zstd/zstd_decompress.o lib/zstd/zstd_decompress.mod.o ;  true

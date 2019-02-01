@@ -1,0 +1,1 @@
+cmd_net/bridge/built-in.o :=  rm -f net/bridge/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD net/bridge/built-in.o net/bridge/netfilter/built-in.o 

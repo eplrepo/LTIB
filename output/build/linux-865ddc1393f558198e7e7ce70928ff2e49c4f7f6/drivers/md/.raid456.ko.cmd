@@ -1,0 +1,1 @@
+cmd_drivers/md/raid456.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/md/raid456.ko drivers/md/raid456.o drivers/md/raid456.mod.o ;  true

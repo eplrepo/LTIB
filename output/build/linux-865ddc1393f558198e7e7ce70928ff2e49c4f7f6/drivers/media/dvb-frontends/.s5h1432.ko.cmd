@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/s5h1432.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/s5h1432.ko drivers/media/dvb-frontends/s5h1432.o drivers/media/dvb-frontends/s5h1432.mod.o ;  true

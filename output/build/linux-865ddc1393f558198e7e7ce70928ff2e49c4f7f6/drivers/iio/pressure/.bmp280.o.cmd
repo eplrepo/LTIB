@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/bmp280.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/iio/pressure/bmp280.o drivers/iio/pressure/bmp280-core.o drivers/iio/pressure/bmp280-regmap.o 

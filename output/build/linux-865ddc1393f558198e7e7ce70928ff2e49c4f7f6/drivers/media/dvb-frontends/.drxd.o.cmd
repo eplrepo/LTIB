@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/drxd.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/dvb-frontends/drxd.o drivers/media/dvb-frontends/drxd_firm.o drivers/media/dvb-frontends/drxd_hard.o 

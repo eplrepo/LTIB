@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_TRACE.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/xt_TRACE.ko net/netfilter/xt_TRACE.o net/netfilter/xt_TRACE.mod.o ;  true

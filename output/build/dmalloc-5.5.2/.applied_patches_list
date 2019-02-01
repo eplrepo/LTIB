@@ -1,0 +1,4 @@
+/home/epl/Jan_7/Linux-Test-Framework/package/dmalloc/0001-add-fpic.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/dmalloc/0002-mips.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/dmalloc/0003-fix-parallel-build.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/dmalloc/0004-fix-shlibs.patch

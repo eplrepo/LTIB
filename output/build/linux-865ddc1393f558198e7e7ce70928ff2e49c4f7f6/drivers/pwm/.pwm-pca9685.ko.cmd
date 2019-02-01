@@ -1,0 +1,1 @@
+cmd_drivers/pwm/pwm-pca9685.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/pwm/pwm-pca9685.ko drivers/pwm/pwm-pca9685.o drivers/pwm/pwm-pca9685.mod.o ;  true

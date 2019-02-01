@@ -1,0 +1,1 @@
+cmd_drivers/iio/buffer/industrialio-buffer-cb.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/buffer/industrialio-buffer-cb.ko drivers/iio/buffer/industrialio-buffer-cb.o drivers/iio/buffer/industrialio-buffer-cb.mod.o ;  true

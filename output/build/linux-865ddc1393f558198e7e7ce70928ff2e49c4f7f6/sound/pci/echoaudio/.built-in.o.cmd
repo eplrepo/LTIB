@@ -1,0 +1,1 @@
+cmd_sound/pci/echoaudio/built-in.o :=  rm -f sound/pci/echoaudio/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD sound/pci/echoaudio/built-in.o

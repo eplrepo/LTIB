@@ -1,0 +1,2 @@
+/home/epl/Jan_7/Linux-Test-Framework/package/kmod/0001-fix-O_CLOEXEC.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/kmod/0002-shared-util.c-assert_cc-can-only-be-used-inside-func.patch

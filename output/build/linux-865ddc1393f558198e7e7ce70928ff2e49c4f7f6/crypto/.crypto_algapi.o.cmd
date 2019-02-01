@@ -1,0 +1,1 @@
+cmd_crypto/crypto_algapi.o := rm -f crypto/crypto_algapi.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD crypto/crypto_algapi.o crypto/algapi.o crypto/scatterwalk.o crypto/proc.o

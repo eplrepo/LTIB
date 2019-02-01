@@ -1,0 +1,5 @@
+@set version-GCC 6.4.0
+@clear DEVELOPMENT
+@set srcdir /home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-initial-6.4.0/build/gcc/../../gcc
+@set VERSION_PACKAGE (Buildroot 2018.02.1-g1c99f2c-dirty) 
+@set BUGURL @uref{http://bugs.buildroot.net/}

@@ -1,0 +1,1 @@
+cmd_drivers/thermal/broadcom/built-in.o :=  rm -f drivers/thermal/broadcom/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/thermal/broadcom/built-in.o drivers/thermal/broadcom/bcm2835_thermal.o 

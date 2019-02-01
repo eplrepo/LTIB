@@ -1,0 +1,1 @@
+cmd_drivers/misc/bcm2835_smi.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/misc/bcm2835_smi.ko drivers/misc/bcm2835_smi.o drivers/misc/bcm2835_smi.mod.o ;  true

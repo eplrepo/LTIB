@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/max2165.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/max2165.ko drivers/media/tuners/max2165.o drivers/media/tuners/max2165.mod.o ;  true

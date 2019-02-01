@@ -1,0 +1,1 @@
+cmd_net/dns_resolver/dns_resolver.o := rm -f net/dns_resolver/dns_resolver.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD net/dns_resolver/dns_resolver.o net/dns_resolver/dns_key.o net/dns_resolver/dns_query.o

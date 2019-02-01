@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/msp3400.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/i2c/msp3400.o drivers/media/i2c/msp3400-driver.o drivers/media/i2c/msp3400-kthreads.o 

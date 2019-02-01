@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/nand_ecc.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/mtd/nand/nand_ecc.ko drivers/mtd/nand/nand_ecc.o drivers/mtd/nand/nand_ecc.mod.o ;  true

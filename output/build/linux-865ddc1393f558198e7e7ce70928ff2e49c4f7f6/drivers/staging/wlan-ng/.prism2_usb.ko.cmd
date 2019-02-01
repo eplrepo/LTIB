@@ -1,0 +1,1 @@
+cmd_drivers/staging/wlan-ng/prism2_usb.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/wlan-ng/prism2_usb.ko drivers/staging/wlan-ng/prism2_usb.o drivers/staging/wlan-ng/prism2_usb.mod.o ;  true

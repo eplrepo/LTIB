@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/adutux.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/misc/adutux.ko drivers/usb/misc/adutux.o drivers/usb/misc/adutux.mod.o ;  true

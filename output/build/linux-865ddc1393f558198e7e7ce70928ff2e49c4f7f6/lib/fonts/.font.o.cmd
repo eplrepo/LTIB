@@ -1,0 +1,1 @@
+cmd_lib/fonts/font.o := rm -f lib/fonts/font.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD lib/fonts/font.o lib/fonts/fonts.o lib/fonts/font_8x8.o lib/fonts/font_8x16.o

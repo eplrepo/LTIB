@@ -1,0 +1,1 @@
+cmd_drivers/tty/serdev/built-in.o :=  rm -f drivers/tty/serdev/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/tty/serdev/built-in.o

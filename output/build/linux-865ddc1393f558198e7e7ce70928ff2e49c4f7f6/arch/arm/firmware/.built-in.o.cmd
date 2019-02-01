@@ -1,0 +1,1 @@
+cmd_arch/arm/firmware/built-in.o :=  rm -f arch/arm/firmware/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD arch/arm/firmware/built-in.o

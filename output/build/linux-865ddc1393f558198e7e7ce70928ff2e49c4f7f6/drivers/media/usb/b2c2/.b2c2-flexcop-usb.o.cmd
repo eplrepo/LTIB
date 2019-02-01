@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/b2c2/b2c2-flexcop-usb.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/usb/b2c2/b2c2-flexcop-usb.o drivers/media/usb/b2c2/flexcop-usb.o 

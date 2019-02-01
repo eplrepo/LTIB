@@ -1,0 +1,1 @@
+cmd_crypto/cryptomgr.o := rm -f crypto/cryptomgr.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD crypto/cryptomgr.o crypto/algboss.o crypto/testmgr.o

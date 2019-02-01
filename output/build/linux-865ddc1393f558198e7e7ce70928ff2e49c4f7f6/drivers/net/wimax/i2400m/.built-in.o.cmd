@@ -1,0 +1,1 @@
+cmd_drivers/net/wimax/i2400m/built-in.o :=  rm -f drivers/net/wimax/i2400m/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/net/wimax/i2400m/built-in.o

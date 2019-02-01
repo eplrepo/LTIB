@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ads1015.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/ads1015.ko drivers/hwmon/ads1015.o drivers/hwmon/ads1015.mod.o ;  true

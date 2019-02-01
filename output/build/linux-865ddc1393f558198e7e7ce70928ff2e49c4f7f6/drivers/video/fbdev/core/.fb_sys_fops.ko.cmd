@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/core/fb_sys_fops.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/video/fbdev/core/fb_sys_fops.ko drivers/video/fbdev/core/fb_sys_fops.o drivers/video/fbdev/core/fb_sys_fops.mod.o ;  true

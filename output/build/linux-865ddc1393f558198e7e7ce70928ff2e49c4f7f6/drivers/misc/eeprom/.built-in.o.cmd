@@ -1,0 +1,1 @@
+cmd_drivers/misc/eeprom/built-in.o :=  rm -f drivers/misc/eeprom/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/misc/eeprom/built-in.o

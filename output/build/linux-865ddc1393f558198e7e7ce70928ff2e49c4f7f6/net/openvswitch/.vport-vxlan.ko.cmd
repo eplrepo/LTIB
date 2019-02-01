@@ -1,0 +1,1 @@
+cmd_net/openvswitch/vport-vxlan.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/openvswitch/vport-vxlan.ko net/openvswitch/vport-vxlan.o net/openvswitch/vport-vxlan.mod.o ;  true

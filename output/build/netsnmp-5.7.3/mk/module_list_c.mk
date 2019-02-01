@@ -1,0 +1,58 @@
+# contents below built automatically by configure; do not edit by hand
+module_list_c= \
+	ucd-snmp/dlmod.c \
+	agentx/master.c \
+	agentx/subagent.c \
+	mibII/snmp_mib.c \
+	mibII/system_mib.c \
+	mibII/sysORTable.c \
+	mibII/vacm_vars.c \
+	mibII/vacm_conf.c \
+	host/hrh_storage.c \
+	host/hrh_filesys.c \
+	host/hrSWInstalledTable.c \
+	host/hrSWRunTable.c \
+	host/hr_system.c \
+	host/hr_device.c \
+	host/hr_other.c \
+	host/hr_proc.c \
+	host/hr_network.c \
+	host/hr_print.c \
+	host/hr_disk.c \
+	host/hr_partition.c \
+	agentx/protocol.c \
+	agentx/client.c \
+	agentx/master_admin.c \
+	agentx/agentx_config.c \
+	snmpv3/snmpMPDStats_5_5.c \
+	snmpv3/usmStats_5_5.c \
+	snmpv3/snmpEngine.c \
+	snmpv3/usmConf.c \
+	snmpv3/usmUser.c \
+	mibII/updates.c \
+	util_funcs.c \
+	util_funcs/header_generic.c \
+	mibII/vacm_context.c \
+	host/data_access/swinst.c \
+	host/data_access/swrun.c \
+	host/hrSWRunPerfTable.c \
+	util_funcs/header_simple_table.c \
+	hardware/memory/hw_mem.c \
+	hardware/memory/memory_linux.c \
+	hardware/fsys/hw_fsys.c \
+	hardware/fsys/fsys_mntent.c \
+	host/data_access/swinst_apt.c \
+	host/data_access/swrun_procfs_status.c \
+	hardware/cpu/cpu.c \
+	hardware/cpu/cpu_linux.c \
+	if-mib/ifTable/ifTable.c \
+	if-mib/data_access/interface.c \
+	if-mib/ifTable/ifTable_interface.c \
+	if-mib/ifTable/ifTable_data_access.c \
+	if-mib/data_access/interface_linux.c \
+	if-mib/data_access/interface_ioctl.c \
+	ip-mib/data_access/ipaddress_common.c \
+	ip-mib/data_access/ipaddress_linux.c \
+	ip-mib/data_access/ipaddress_ioctl.c
+
+# end configure generated code

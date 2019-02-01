@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.o drivers/media/usb/dvb-usb-v2/mxl111sf.o drivers/media/usb/dvb-usb-v2/mxl111sf-phy.o drivers/media/usb/dvb-usb-v2/mxl111sf-i2c.o drivers/media/usb/dvb-usb-v2/mxl111sf-gpio.o 

@@ -1,0 +1,1 @@
+cmd_lib/zstd/zstd_decompress.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o lib/zstd/zstd_decompress.o lib/zstd/huf_decompress.o lib/zstd/decompress.o lib/zstd/entropy_common.o lib/zstd/fse_decompress.o lib/zstd/zstd_common.o 

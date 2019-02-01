@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_topro.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/usb/gspca/gspca_topro.o drivers/media/usb/gspca/topro.o 

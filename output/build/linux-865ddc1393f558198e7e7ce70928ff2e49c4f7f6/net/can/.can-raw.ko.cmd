@@ -1,0 +1,1 @@
+cmd_net/can/can-raw.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/can/can-raw.ko net/can/can-raw.o net/can/can-raw.mod.o ;  true

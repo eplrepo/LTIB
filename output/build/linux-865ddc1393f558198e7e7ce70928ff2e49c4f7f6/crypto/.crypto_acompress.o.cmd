@@ -1,0 +1,1 @@
+cmd_crypto/crypto_acompress.o := rm -f crypto/crypto_acompress.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD crypto/crypto_acompress.o crypto/acompress.o crypto/scompress.o

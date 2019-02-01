@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/pinctrl-mcp23s08.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/pinctrl/pinctrl-mcp23s08.ko drivers/pinctrl/pinctrl-mcp23s08.o drivers/pinctrl/pinctrl-mcp23s08.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stv0900.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/dvb-frontends/stv0900.o drivers/media/dvb-frontends/stv0900_core.o drivers/media/dvb-frontends/stv0900_sw.o 

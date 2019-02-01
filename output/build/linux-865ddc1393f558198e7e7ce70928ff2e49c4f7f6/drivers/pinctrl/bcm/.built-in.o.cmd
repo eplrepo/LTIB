@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/bcm/built-in.o :=  rm -f drivers/pinctrl/bcm/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/pinctrl/bcm/built-in.o drivers/pinctrl/bcm/pinctrl-bcm2835.o 

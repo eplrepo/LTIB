@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-kovaplus.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-roccat-kovaplus.ko drivers/hid/hid-roccat-kovaplus.o drivers/hid/hid-roccat-kovaplus.mod.o ;  true

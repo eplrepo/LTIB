@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/tuner.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/v4l2-core/tuner.o drivers/media/v4l2-core/tuner-core.o 

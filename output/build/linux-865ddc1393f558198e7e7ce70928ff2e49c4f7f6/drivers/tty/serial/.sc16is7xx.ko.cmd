@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/sc16is7xx.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/tty/serial/sc16is7xx.ko drivers/tty/serial/sc16is7xx.o drivers/tty/serial/sc16is7xx.mod.o ;  true

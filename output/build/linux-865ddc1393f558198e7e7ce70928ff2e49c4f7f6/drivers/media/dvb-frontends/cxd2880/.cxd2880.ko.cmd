@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cxd2880/cxd2880.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/cxd2880/cxd2880.ko drivers/media/dvb-frontends/cxd2880/cxd2880.o drivers/media/dvb-frontends/cxd2880/cxd2880.mod.o ;  true

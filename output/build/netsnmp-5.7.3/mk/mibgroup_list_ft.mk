@@ -1,0 +1,50 @@
+# contents below built automatically by configure; do not edit by hand
+mibgroup_list_ft= \
+	mibgroup/ucd-snmp/dlmod.ft \
+	mibgroup/mibII/snmp_mib.ft \
+	mibgroup/mibII/system_mib.ft \
+	mibgroup/mibII/sysORTable.ft \
+	mibgroup/mibII/vacm_vars.ft \
+	mibgroup/host/hrh_storage.ft \
+	mibgroup/host/hrh_filesys.ft \
+	mibgroup/host/hrSWInstalledTable.ft \
+	mibgroup/host/hrSWRunTable.ft \
+	mibgroup/host/hr_system.ft \
+	mibgroup/host/hr_device.ft \
+	mibgroup/host/hr_other.ft \
+	mibgroup/host/hr_proc.ft \
+	mibgroup/host/hr_network.ft \
+	mibgroup/host/hr_print.ft \
+	mibgroup/host/hr_disk.ft \
+	mibgroup/host/hr_partition.ft \
+	mibgroup/snmpv3/snmpMPDStats_5_5.ft \
+	mibgroup/snmpv3/usmStats_5_5.ft \
+	mibgroup/snmpv3/snmpEngine.ft \
+	mibgroup/snmpv3/usmUser.ft \
+	mibgroup/mibII/updates.ft \
+	mibgroup/util_funcs.ft \
+	mibgroup/util_funcs/header_generic.ft \
+	mibgroup/mibII/vacm_context.ft \
+	mibgroup/host/data_access/swinst.ft \
+	mibgroup/host/data_access/swrun.ft \
+	mibgroup/host/hrSWRunPerfTable.ft \
+	mibgroup/util_funcs/header_simple_table.ft \
+	mibgroup/hardware/memory/hw_mem.ft \
+	mibgroup/hardware/memory/memory_linux.ft \
+	mibgroup/hardware/fsys/hw_fsys.ft \
+	mibgroup/hardware/fsys/fsys_mntent.ft \
+	mibgroup/host/data_access/swinst_apt.ft \
+	mibgroup/host/data_access/swrun_procfs_status.ft \
+	mibgroup/hardware/cpu/cpu.ft \
+	mibgroup/hardware/cpu/cpu_linux.ft \
+	mibgroup/if-mib/ifTable/ifTable.ft \
+	mibgroup/if-mib/data_access/interface.ft \
+	mibgroup/if-mib/ifTable/ifTable_interface.ft \
+	mibgroup/if-mib/ifTable/ifTable_data_access.ft \
+	mibgroup/if-mib/data_access/interface_linux.ft \
+	mibgroup/if-mib/data_access/interface_ioctl.ft \
+	mibgroup/ip-mib/data_access/ipaddress_common.ft \
+	mibgroup/ip-mib/data_access/ipaddress_linux.ft \
+	mibgroup/ip-mib/data_access/ipaddress_ioctl.ft
+
+# end configure generated code

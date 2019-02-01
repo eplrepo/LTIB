@@ -1,0 +1,1 @@
+cmd_archival/libarchive/built-in.o :=  rm -f archival/libarchive/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcs archival/libarchive/built-in.o

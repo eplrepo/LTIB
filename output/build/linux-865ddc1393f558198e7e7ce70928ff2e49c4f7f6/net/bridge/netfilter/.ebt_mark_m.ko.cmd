@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_mark_m.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/bridge/netfilter/ebt_mark_m.ko net/bridge/netfilter/ebt_mark_m.o net/bridge/netfilter/ebt_mark_m.mod.o ;  true

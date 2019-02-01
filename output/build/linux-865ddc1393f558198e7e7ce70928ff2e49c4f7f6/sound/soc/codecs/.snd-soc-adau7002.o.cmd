@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-adau7002.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o sound/soc/codecs/snd-soc-adau7002.o sound/soc/codecs/adau7002.o 

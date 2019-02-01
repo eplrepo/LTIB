@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/empeg.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/serial/empeg.ko drivers/usb/serial/empeg.o drivers/usb/serial/empeg.mod.o ;  true

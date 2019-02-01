@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/net1080.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/usb/net1080.ko drivers/net/usb/net1080.o drivers/net/usb/net1080.mod.o ;  true

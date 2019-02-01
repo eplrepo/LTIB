@@ -1,0 +1,1 @@
+cmd_drivers/staging/irda/drivers/stir4200.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/irda/drivers/stir4200.ko drivers/staging/irda/drivers/stir4200.o drivers/staging/irda/drivers/stir4200.mod.o ;  true

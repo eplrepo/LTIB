@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_physdev.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/xt_physdev.ko net/netfilter/xt_physdev.o net/netfilter/xt_physdev.mod.o ;  true

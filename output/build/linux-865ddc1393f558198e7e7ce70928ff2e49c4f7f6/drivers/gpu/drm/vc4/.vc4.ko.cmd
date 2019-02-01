@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/vc4/vc4.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/vc4/vc4.ko drivers/gpu/drm/vc4/vc4.o drivers/gpu/drm/vc4/vc4.mod.o ;  true

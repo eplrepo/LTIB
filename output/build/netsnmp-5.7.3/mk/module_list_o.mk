@@ -1,0 +1,58 @@
+# contents below built automatically by configure; do not edit by hand
+module_list_o= \
+	ucd-snmp/dlmod.o \
+	agentx/master.o \
+	agentx/subagent.o \
+	mibII/snmp_mib.o \
+	mibII/system_mib.o \
+	mibII/sysORTable.o \
+	mibII/vacm_vars.o \
+	mibII/vacm_conf.o \
+	host/hrh_storage.o \
+	host/hrh_filesys.o \
+	host/hrSWInstalledTable.o \
+	host/hrSWRunTable.o \
+	host/hr_system.o \
+	host/hr_device.o \
+	host/hr_other.o \
+	host/hr_proc.o \
+	host/hr_network.o \
+	host/hr_print.o \
+	host/hr_disk.o \
+	host/hr_partition.o \
+	agentx/protocol.o \
+	agentx/client.o \
+	agentx/master_admin.o \
+	agentx/agentx_config.o \
+	snmpv3/snmpMPDStats_5_5.o \
+	snmpv3/usmStats_5_5.o \
+	snmpv3/snmpEngine.o \
+	snmpv3/usmConf.o \
+	snmpv3/usmUser.o \
+	mibII/updates.o \
+	util_funcs.o \
+	util_funcs/header_generic.o \
+	mibII/vacm_context.o \
+	host/data_access/swinst.o \
+	host/data_access/swrun.o \
+	host/hrSWRunPerfTable.o \
+	util_funcs/header_simple_table.o \
+	hardware/memory/hw_mem.o \
+	hardware/memory/memory_linux.o \
+	hardware/fsys/hw_fsys.o \
+	hardware/fsys/fsys_mntent.o \
+	host/data_access/swinst_apt.o \
+	host/data_access/swrun_procfs_status.o \
+	hardware/cpu/cpu.o \
+	hardware/cpu/cpu_linux.o \
+	if-mib/ifTable/ifTable.o \
+	if-mib/data_access/interface.o \
+	if-mib/ifTable/ifTable_interface.o \
+	if-mib/ifTable/ifTable_data_access.o \
+	if-mib/data_access/interface_linux.o \
+	if-mib/data_access/interface_ioctl.o \
+	ip-mib/data_access/ipaddress_common.o \
+	ip-mib/data_access/ipaddress_linux.o \
+	ip-mib/data_access/ipaddress_ioctl.o
+
+# end configure generated code

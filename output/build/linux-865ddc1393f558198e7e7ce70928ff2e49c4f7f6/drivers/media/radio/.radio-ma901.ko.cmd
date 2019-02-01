@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/radio-ma901.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/radio/radio-ma901.ko drivers/media/radio/radio-ma901.o drivers/media/radio/radio-ma901.mod.o ;  true

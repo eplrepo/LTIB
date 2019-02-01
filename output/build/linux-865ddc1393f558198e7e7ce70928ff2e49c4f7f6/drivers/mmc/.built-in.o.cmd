@@ -1,0 +1,1 @@
+cmd_drivers/mmc/built-in.o :=  rm -f drivers/mmc/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/mmc/built-in.o drivers/mmc/core/built-in.o drivers/mmc/host/built-in.o 

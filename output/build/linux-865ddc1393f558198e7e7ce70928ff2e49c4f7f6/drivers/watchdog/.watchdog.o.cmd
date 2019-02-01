@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/watchdog.o := rm -f drivers/watchdog/watchdog.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/watchdog/watchdog.o drivers/watchdog/watchdog_core.o drivers/watchdog/watchdog_dev.o

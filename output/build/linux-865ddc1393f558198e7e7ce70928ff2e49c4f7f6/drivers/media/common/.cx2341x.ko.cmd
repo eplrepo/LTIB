@@ -1,0 +1,1 @@
+cmd_drivers/media/common/cx2341x.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/common/cx2341x.ko drivers/media/common/cx2341x.o drivers/media/common/cx2341x.mod.o ;  true

@@ -1,0 +1,14 @@
+  SNMP Versions Supported:    1 2c 3
+  Building for:               linux
+  Net-SNMP Version:           5.7.3
+  Network transport support:  Callback Alias TCP UDP TCPIPv6 UDPIPv6 DTLSUDP TLSTCP IPv4Base SocketBase TCPBase UDPIPv4Base UDPBase IPv6Base TLSBase
+  SNMPv3 Security Modules:     tsm usm
+  Agent MIB code:            agentx default_modules host ucd-snmp/dlmod =>  agentx/master agentx/subagent snmpv3mibs mibII/snmp_mib mibII/system_mib mibII/sysORTable mibII/vacm_vars mibII/vacm_conf host/hrh_storage host/hrh_filesys host/hrSWInstalledTable host/hrSWRunTable host/hr_system host/hr_device host/hr_other host/hr_proc host/hr_network host/hr_print host/hr_disk host/hr_partition
+  MYSQL Trap Logging:         unavailable
+  Embedded Perl support:      disabled
+  SNMP Perl modules:          disabled
+  SNMP Python modules:        disabled
+  Crypto support from:        crypto
+  Authentication support:     MD5 SHA1
+  Encryption support:         DES AES
+  Local DNSSEC validation:    disabled

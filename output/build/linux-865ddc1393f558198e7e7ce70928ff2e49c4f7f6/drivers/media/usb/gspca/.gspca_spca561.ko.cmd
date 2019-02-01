@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_spca561.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/gspca_spca561.ko drivers/media/usb/gspca/gspca_spca561.o drivers/media/usb/gspca/gspca_spca561.mod.o ;  true

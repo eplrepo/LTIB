@@ -1,0 +1,1 @@
+cmd_drivers/video/logo/built-in.o :=  rm -f drivers/video/logo/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/video/logo/built-in.o drivers/video/logo/logo.o drivers/video/logo/logo_linux_clut224.o 

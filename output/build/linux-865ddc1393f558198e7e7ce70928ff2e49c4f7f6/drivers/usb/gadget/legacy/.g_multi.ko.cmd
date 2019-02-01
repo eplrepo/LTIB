@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_multi.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/legacy/g_multi.ko drivers/usb/gadget/legacy/g_multi.o drivers/usb/gadget/legacy/g_multi.mod.o ;  true

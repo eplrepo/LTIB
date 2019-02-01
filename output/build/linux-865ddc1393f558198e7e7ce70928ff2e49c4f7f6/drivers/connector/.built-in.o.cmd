@@ -1,0 +1,1 @@
+cmd_drivers/connector/built-in.o :=  rm -f drivers/connector/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/connector/built-in.o

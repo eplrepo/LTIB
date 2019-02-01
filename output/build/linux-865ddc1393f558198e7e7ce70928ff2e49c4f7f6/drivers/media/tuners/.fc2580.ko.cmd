@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/fc2580.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/fc2580.ko drivers/media/tuners/fc2580.o drivers/media/tuners/fc2580.mod.o ;  true

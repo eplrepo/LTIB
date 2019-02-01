@@ -1,0 +1,1 @@
+cmd_drivers/soc/bcm/built-in.o :=  rm -f drivers/soc/bcm/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/soc/bcm/built-in.o drivers/soc/bcm/raspberrypi-power.o 

@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-usbat.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/usb/storage/ums-usbat.o drivers/usb/storage/shuttle_usbat.o 

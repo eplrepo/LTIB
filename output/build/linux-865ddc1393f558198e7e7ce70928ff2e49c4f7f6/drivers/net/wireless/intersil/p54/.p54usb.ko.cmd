@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intersil/p54/p54usb.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/intersil/p54/p54usb.ko drivers/net/wireless/intersil/p54/p54usb.o drivers/net/wireless/intersil/p54/p54usb.mod.o ;  true

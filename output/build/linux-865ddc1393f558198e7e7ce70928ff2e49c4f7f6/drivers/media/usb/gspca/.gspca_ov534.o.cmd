@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_ov534.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/usb/gspca/gspca_ov534.o drivers/media/usb/gspca/ov534.o 

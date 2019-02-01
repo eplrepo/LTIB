@@ -1,0 +1,201 @@
+The target system is: Buildroot -  - armv7l
+The host system is: Linux - 4.15.0-43-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-Os
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7af24/fast"
+make[2]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7af24.dir/build.make CMakeFiles/cmTC_7af24.dir/build
+make[3]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7af24.dir/testCCompiler.c.o
+/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -o CMakeFiles/cmTC_7af24.dir/testCCompiler.c.o   -c /home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7af24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7af24.dir/link.txt --verbose=1
+/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_7af24.dir/testCCompiler.c.o  -o cmTC_7af24 -rdynamic 
+make[3]: Leaving directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d77bc/fast"
+make[2]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d77bc.dir/build.make CMakeFiles/cmTC_d77bc.dir/build
+make[3]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d77bc.dir/CMakeCCompilerABI.c.o
+/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -o CMakeFiles/cmTC_d77bc.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d77bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d77bc.dir/link.txt --verbose=1
+/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -v CMakeFiles/cmTC_d77bc.dir/CMakeCCompilerABI.c.o  -o cmTC_d77bc -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc.br_real
+COLLECT_LTO_WRAPPER=/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/lto-wrapper
+Target: arm-buildroot-linux-uclibcgnueabihf
+Configured with: ./configure --prefix=/home/epl/Jan_7/Linux-Test-Framework/output/host --sysconfdir=/home/epl/Jan_7/Linux-Test-Framework/output/host/etc --enable-static --target=arm-buildroot-linux-uclibcgnueabihf --with-sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/home/epl/Jan_7/Linux-Test-Framework/output/host --with-mpc=/home/epl/Jan_7/Linux-Test-Framework/output/host --with-mpfr=/home/epl/Jan_7/Linux-Test-Framework/output/host --with-pkgversion='Buildroot 2018.02.1-g1c99f2c-dirty' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 6.4.0 (Buildroot 2018.02.1-g1c99f2c-dirty) 
+COMPILER_PATH=/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/:/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/:/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/:/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/:/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/:/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/../../../../arm-buildroot-linux-uclibcgnueabihf/bin/
+LIBRARY_PATH=/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/:/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/../../../../arm-buildroot-linux-uclibcgnueabihf/lib/:/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/:/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-D' 'NDEBUG' '-v' '-o' 'cmTC_d77bc' '-rdynamic' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/collect2 -plugin /home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/liblto_plugin.so -plugin-opt=/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxUO6yA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_d77bc /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/crtbegin.o -L/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0 -L/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/../../../../arm-buildroot-linux-uclibcgnueabihf/lib -L/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib -L/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_d77bc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/crtend.o /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-D' 'NDEBUG' '-v' '-o' 'cmTC_d77bc' '-rdynamic' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+make[3]: Leaving directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-buildroot-linux-uclibcgnueabihf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d77bc/fast"]
+  ignore line: [make[2]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d77bc.dir/build.make CMakeFiles/cmTC_d77bc.dir/build]
+  ignore line: [make[3]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d77bc.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -o CMakeFiles/cmTC_d77bc.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d77bc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d77bc.dir/link.txt --verbose=1]
+  ignore line: [/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -v CMakeFiles/cmTC_d77bc.dir/CMakeCCompilerABI.c.o  -o cmTC_d77bc -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/lto-wrapper]
+  ignore line: [Target: arm-buildroot-linux-uclibcgnueabihf]
+  ignore line: [Configured with: ./configure --prefix=/home/epl/Jan_7/Linux-Test-Framework/output/host --sysconfdir=/home/epl/Jan_7/Linux-Test-Framework/output/host/etc --enable-static --target=arm-buildroot-linux-uclibcgnueabihf --with-sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/home/epl/Jan_7/Linux-Test-Framework/output/host --with-mpc=/home/epl/Jan_7/Linux-Test-Framework/output/host --with-mpfr=/home/epl/Jan_7/Linux-Test-Framework/output/host --with-pkgversion='Buildroot 2018.02.1-g1c99f2c-dirty' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.0 (Buildroot 2018.02.1-g1c99f2c-dirty) ]
+  ignore line: [COMPILER_PATH=/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/:/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/:/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/:/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/:/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/:/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/../../../../arm-buildroot-linux-uclibcgnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/:/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/../../../../arm-buildroot-linux-uclibcgnueabihf/lib/:/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib/:/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-D' 'NDEBUG' '-v' '-o' 'cmTC_d77bc' '-rdynamic' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  link line: [ /home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/collect2 -plugin /home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/liblto_plugin.so -plugin-opt=/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxUO6yA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_d77bc /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o /home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/crtbegin.o -L/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0 -L/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/../../../../arm-buildroot-linux-uclibcgnueabihf/lib -L/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib -L/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib CMakeFiles/cmTC_d77bc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/crtend.o /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/epl/Jan_7/Linux-Test-Framework/output/host/libexec/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxUO6yA.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d77bc] ==> ignore
+    arg [/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0] ==> dir [/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0]
+    arg [-L/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/../../../../arm-buildroot-linux-uclibcgnueabihf/lib] ==> dir [/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/../../../../arm-buildroot-linux-uclibcgnueabihf/lib]
+    arg [-L/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib] ==> dir [/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib]
+    arg [-L/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib] ==> dir [/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_d77bc.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/crtend.o] ==> ignore
+    arg [/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0] ==> [/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0]
+  collapse library dir [/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0/../../../../arm-buildroot-linux-uclibcgnueabihf/lib] ==> [/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/lib]
+  collapse library dir [/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib] ==> [/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib]
+  collapse library dir [/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib] ==> [/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/epl/Jan_7/Linux-Test-Framework/output/host/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/6.4.0;/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/lib;/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/lib;/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a59b1/fast"
+make[2]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a59b1.dir/build.make CMakeFiles/cmTC_a59b1.dir/build
+make[3]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a59b1.dir/feature_tests.c.o
+/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -std=c11 -o CMakeFiles/cmTC_a59b1.dir/feature_tests.c.o   -c /home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a59b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a59b1.dir/link.txt --verbose=1
+/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_a59b1.dir/feature_tests.c.o  -o cmTC_a59b1 -rdynamic 
+make[3]: Leaving directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3809d/fast"
+make[2]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3809d.dir/build.make CMakeFiles/cmTC_3809d.dir/build
+make[3]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3809d.dir/feature_tests.c.o
+/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -std=c99 -o CMakeFiles/cmTC_3809d.dir/feature_tests.c.o   -c /home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3809d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3809d.dir/link.txt --verbose=1
+/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_3809d.dir/feature_tests.c.o  -o cmTC_3809d -rdynamic 
+make[3]: Leaving directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fa60/fast"
+make[2]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4fa60.dir/build.make CMakeFiles/cmTC_4fa60.dir/build
+make[3]: Entering directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fa60.dir/feature_tests.c.o
+/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -std=c90 -o CMakeFiles/cmTC_4fa60.dir/feature_tests.c.o   -c /home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4fa60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fa60.dir/link.txt --verbose=1
+/home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-gcc  --sysroot=/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_4fa60.dir/feature_tests.c.o  -o cmTC_4fa60 -rdynamic 
+make[3]: Leaving directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/epl/Jan_7/Linux-Test-Framework/output/build/tcf-agent-1.6.0/agent/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

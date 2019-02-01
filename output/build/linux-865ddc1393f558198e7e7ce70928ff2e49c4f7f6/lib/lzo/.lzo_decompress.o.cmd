@@ -1,0 +1,1 @@
+cmd_lib/lzo/lzo_decompress.o := rm -f lib/lzo/lzo_decompress.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD lib/lzo/lzo_decompress.o lib/lzo/lzo1x_decompress_safe.o

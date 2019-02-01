@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stb0899.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/dvb-frontends/stb0899.o drivers/media/dvb-frontends/stb0899_drv.o drivers/media/dvb-frontends/stb0899_algo.o 

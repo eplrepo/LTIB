@@ -1,0 +1,1 @@
+cmd_drivers/thermal/thermal_sys.o := rm -f drivers/thermal/thermal_sys.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/thermal/thermal_sys.o drivers/thermal/thermal_core.o drivers/thermal/thermal_sysfs.o drivers/thermal/thermal_helpers.o drivers/thermal/of-thermal.o drivers/thermal/step_wise.o

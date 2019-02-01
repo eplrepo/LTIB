@@ -1,0 +1,1 @@
+cmd_net/ieee802154/ieee802154_socket.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o net/ieee802154/ieee802154_socket.o net/ieee802154/socket.o 

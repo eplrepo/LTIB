@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/omap2/built-in.o :=  rm -f drivers/video/fbdev/omap2/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/video/fbdev/omap2/built-in.o drivers/video/fbdev/omap2/omapfb/built-in.o 

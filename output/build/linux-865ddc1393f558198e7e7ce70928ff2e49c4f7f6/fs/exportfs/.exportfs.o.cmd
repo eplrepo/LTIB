@@ -1,0 +1,1 @@
+cmd_fs/exportfs/exportfs.o := rm -f fs/exportfs/exportfs.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD fs/exportfs/exportfs.o fs/exportfs/expfs.o

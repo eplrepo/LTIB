@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb/dvb-usb.ko drivers/media/usb/dvb-usb/dvb-usb.o drivers/media/usb/dvb-usb/dvb-usb.mod.o ;  true

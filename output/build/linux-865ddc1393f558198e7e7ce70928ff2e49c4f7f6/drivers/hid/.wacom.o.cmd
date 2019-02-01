@@ -1,0 +1,1 @@
+cmd_drivers/hid/wacom.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/hid/wacom.o drivers/hid/wacom_wac.o drivers/hid/wacom_sys.o 

@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/built-in.o :=  rm -f drivers/video/backlight/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/video/backlight/built-in.o drivers/video/backlight/backlight.o 

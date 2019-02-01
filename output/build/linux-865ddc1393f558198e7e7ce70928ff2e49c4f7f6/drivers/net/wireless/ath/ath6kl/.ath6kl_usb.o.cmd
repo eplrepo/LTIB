@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath6kl/ath6kl_usb.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/net/wireless/ath/ath6kl/ath6kl_usb.o drivers/net/wireless/ath/ath6kl/usb.o 

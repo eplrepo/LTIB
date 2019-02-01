@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-technisat-usb2.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/usb/dvb-usb/dvb-usb-technisat-usb2.o drivers/media/usb/dvb-usb/technisat-usb2.o 

@@ -1,0 +1,4 @@
+/home/epl/Jan_7/Linux-Test-Framework/package/dieharder/0001-Do-not-use-includedir-as-include-search-path-for-bui.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/dieharder/0002-Fix-missing-type-intptr_t.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/dieharder/0003-Add-_GNU_SOURCE-for-uint-and-M_PI-with-musl-libc.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/dieharder/0004-Add-static-to-inline-functions.patch

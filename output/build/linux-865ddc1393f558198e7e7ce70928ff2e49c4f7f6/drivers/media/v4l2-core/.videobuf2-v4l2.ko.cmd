@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/videobuf2-v4l2.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/v4l2-core/videobuf2-v4l2.ko drivers/media/v4l2-core/videobuf2-v4l2.o drivers/media/v4l2-core/videobuf2-v4l2.mod.o ;  true

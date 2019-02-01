@@ -1,0 +1,1 @@
+cmd_drivers/regulator/arizona-micsupp.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/regulator/arizona-micsupp.ko drivers/regulator/arizona-micsupp.o drivers/regulator/arizona-micsupp.mod.o ;  true

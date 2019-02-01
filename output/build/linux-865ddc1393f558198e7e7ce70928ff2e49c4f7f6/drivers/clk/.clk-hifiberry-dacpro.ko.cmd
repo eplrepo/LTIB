@@ -1,0 +1,1 @@
+cmd_drivers/clk/clk-hifiberry-dacpro.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/clk/clk-hifiberry-dacpro.ko drivers/clk/clk-hifiberry-dacpro.o drivers/clk/clk-hifiberry-dacpro.mod.o ;  true

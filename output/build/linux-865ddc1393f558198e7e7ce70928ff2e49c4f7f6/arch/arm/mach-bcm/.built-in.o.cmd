@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-bcm/built-in.o :=  rm -f arch/arm/mach-bcm/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD arch/arm/mach-bcm/built-in.o arch/arm/mach-bcm/board_bcm2835.o arch/arm/mach-bcm/platsmp.o 

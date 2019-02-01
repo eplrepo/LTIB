@@ -1,0 +1,1 @@
+cmd_drivers/mfd/arizona-i2c.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/mfd/arizona-i2c.ko drivers/mfd/arizona-i2c.o drivers/mfd/arizona-i2c.mod.o ;  true

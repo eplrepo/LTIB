@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/gpio_wdt.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/watchdog/gpio_wdt.ko drivers/watchdog/gpio_wdt.o drivers/watchdog/gpio_wdt.mod.o ;  true

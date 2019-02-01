@@ -1,0 +1,1 @@
+cmd_net/sched/sch_ingress.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/sch_ingress.ko net/sched/sch_ingress.o net/sched/sch_ingress.mod.o ;  true

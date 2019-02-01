@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tinydrm/built-in.o :=  rm -f drivers/gpu/drm/tinydrm/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/gpu/drm/tinydrm/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/8250/8250.o := rm -f drivers/tty/serial/8250/8250.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/tty/serial/8250/8250.o drivers/tty/serial/8250/8250_core.o

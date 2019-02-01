@@ -1,0 +1,1 @@
+cmd_drivers/usb/common/built-in.o :=  rm -f drivers/usb/common/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/usb/common/built-in.o drivers/usb/common/usb-common.o 

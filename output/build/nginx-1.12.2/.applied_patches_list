@@ -1,0 +1,9 @@
+/home/epl/Jan_7/Linux-Test-Framework/package/nginx/0001-auto-type-sizeof-rework-autotest-to-be-cross-compila.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/nginx/0002-auto-feature-add-mechanism-allowing-to-force-feature.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/nginx/0003-auto-set-ngx_feature_run_force_result-for-each-featu.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/nginx/0004-auto-lib-libxslt-conf-use-pkg-config.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/nginx/0005-auto-unix-make-sys_nerr-guessing-cross-friendly.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/nginx/0006-auto-lib-openssl-conf-use-pkg-config.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/nginx/0007-auto-lib-libgd-conf-use-pkg-config.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/nginx/0008-src-os-unix-ngx_linux_config.h-only-include-dlfcn.h-.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/nginx/0009-auto-lib-conf-fix-PCRE-condition-WRT-the-http-and-ht.patch

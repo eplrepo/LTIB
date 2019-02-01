@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6t_rpfilter.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/ipv6/netfilter/ip6t_rpfilter.ko net/ipv6/netfilter/ip6t_rpfilter.o net/ipv6/netfilter/ip6t_rpfilter.mod.o ;  true

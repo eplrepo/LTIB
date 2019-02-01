@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_addrtype.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/xt_addrtype.ko net/netfilter/xt_addrtype.o net/netfilter/xt_addrtype.mod.o ;  true

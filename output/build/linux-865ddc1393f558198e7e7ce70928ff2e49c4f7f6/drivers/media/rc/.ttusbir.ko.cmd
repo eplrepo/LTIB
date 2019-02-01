@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/ttusbir.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/ttusbir.ko drivers/media/rc/ttusbir.o drivers/media/rc/ttusbir.mod.o ;  true

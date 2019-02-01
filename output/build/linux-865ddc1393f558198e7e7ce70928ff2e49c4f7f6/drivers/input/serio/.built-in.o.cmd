@@ -1,0 +1,1 @@
+cmd_drivers/input/serio/built-in.o :=  rm -f drivers/input/serio/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/input/serio/built-in.o

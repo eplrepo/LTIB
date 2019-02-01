@@ -1,0 +1,146 @@
+barrier.lo: ../../../libitm/barrier.cc ../../../libitm/libitm_i.h \
+ ../../../libitm/libitm.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/gcc/include/stddef.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/gcc/include/stdbool.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/gcc/include/stdint.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdint.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wordsize.h \
+ config.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/assert.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/arm-buildroot-linux-uclibcgnueabihf/libstdc++-v3/include/stdlib.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/arm-buildroot-linux-uclibcgnueabihf/libstdc++-v3/include/cstdlib \
+ /home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/arm-buildroot-linux-uclibcgnueabihf/libstdc++-v3/include/arm-buildroot-linux-uclibcgnueabihf/bits/c++config.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/arm-buildroot-linux-uclibcgnueabihf/libstdc++-v3/include/arm-buildroot-linux-uclibcgnueabihf/bits/os_defines.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/arm-buildroot-linux-uclibcgnueabihf/libstdc++-v3/include/arm-buildroot-linux-uclibcgnueabihf/bits/cpu_defines.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdlib.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitflags.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitstatus.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/endian.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/endian.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/byteswap.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-common.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/types.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/typesizes.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-16.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/types.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/time.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/select.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/select.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigset.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/time.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/sysmacros.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/alloca.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/string.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/gcc/include/unwind.h \
+ /home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/gcc/include/unwind-arm-common.h \
+ ../../../libitm/local_atomic ../../../libitm/common.h \
+ ../../../libitm/config/arm/target.h \
+ ../../../libitm/config/linux/rwlock.h ../../../libitm/local_atomic \
+ ../../../libitm/common.h ../../../libitm/aatree.h \
+ ../../../libitm/dispatch.h ../../../libitm/containers.h \
+ ../../../libitm/config/generic/tls.h
+
+../../../libitm/libitm_i.h:
+
+../../../libitm/libitm.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/gcc/include/stddef.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/gcc/include/stdbool.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/gcc/include/stdint.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdint.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wordsize.h:
+
+config.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/assert.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/arm-buildroot-linux-uclibcgnueabihf/libstdc++-v3/include/stdlib.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/arm-buildroot-linux-uclibcgnueabihf/libstdc++-v3/include/cstdlib:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/arm-buildroot-linux-uclibcgnueabihf/libstdc++-v3/include/arm-buildroot-linux-uclibcgnueabihf/bits/c++config.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/arm-buildroot-linux-uclibcgnueabihf/libstdc++-v3/include/arm-buildroot-linux-uclibcgnueabihf/bits/os_defines.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/arm-buildroot-linux-uclibcgnueabihf/libstdc++-v3/include/arm-buildroot-linux-uclibcgnueabihf/bits/cpu_defines.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdlib.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitflags.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitstatus.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/endian.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/endian.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/byteswap.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-common.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/types.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/typesizes.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-16.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/types.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/time.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/select.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/select.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigset.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/time.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/sysmacros.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/pthreadtypes.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/alloca.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/string.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/gcc/include/unwind.h:
+
+/home/epl/Jan_7/Linux-Test-Framework/output/build/host-gcc-final-6.4.0/build/gcc/include/unwind-arm-common.h:
+
+../../../libitm/local_atomic:
+
+../../../libitm/common.h:
+
+../../../libitm/config/arm/target.h:
+
+../../../libitm/config/linux/rwlock.h:
+
+../../../libitm/local_atomic:
+
+../../../libitm/common.h:
+
+../../../libitm/aatree.h:
+
+../../../libitm/dispatch.h:
+
+../../../libitm/containers.h:
+
+../../../libitm/config/generic/tls.h:

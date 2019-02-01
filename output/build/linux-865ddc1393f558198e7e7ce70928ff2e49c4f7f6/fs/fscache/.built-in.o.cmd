@@ -1,0 +1,1 @@
+cmd_fs/fscache/built-in.o :=  rm -f fs/fscache/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD fs/fscache/built-in.o fs/fscache/fscache.o 

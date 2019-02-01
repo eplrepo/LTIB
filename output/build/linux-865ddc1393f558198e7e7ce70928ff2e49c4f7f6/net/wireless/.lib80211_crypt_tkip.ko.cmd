@@ -1,0 +1,1 @@
+cmd_net/wireless/lib80211_crypt_tkip.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/wireless/lib80211_crypt_tkip.ko net/wireless/lib80211_crypt_tkip.o net/wireless/lib80211_crypt_tkip.mod.o ;  true

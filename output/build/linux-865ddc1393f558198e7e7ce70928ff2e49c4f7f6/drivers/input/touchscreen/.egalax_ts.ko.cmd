@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/egalax_ts.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/egalax_ts.ko drivers/input/touchscreen/egalax_ts.o drivers/input/touchscreen/egalax_ts.mod.o ;  true

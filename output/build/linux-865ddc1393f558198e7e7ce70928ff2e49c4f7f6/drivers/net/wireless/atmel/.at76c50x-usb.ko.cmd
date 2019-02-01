@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/atmel/at76c50x-usb.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/atmel/at76c50x-usb.ko drivers/net/wireless/atmel/at76c50x-usb.o drivers/net/wireless/atmel/at76c50x-usb.mod.o ;  true

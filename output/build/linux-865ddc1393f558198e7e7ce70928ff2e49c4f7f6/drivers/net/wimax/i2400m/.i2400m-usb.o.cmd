@@ -1,0 +1,1 @@
+cmd_drivers/net/wimax/i2400m/i2400m-usb.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/net/wimax/i2400m/i2400m-usb.o drivers/net/wimax/i2400m/usb-fw.o drivers/net/wimax/i2400m/usb-notif.o drivers/net/wimax/i2400m/usb-tx.o drivers/net/wimax/i2400m/usb-rx.o drivers/net/wimax/i2400m/usb.o 

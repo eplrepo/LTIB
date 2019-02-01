@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/rtl2830.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/rtl2830.ko drivers/media/dvb-frontends/rtl2830.o drivers/media/dvb-frontends/rtl2830.mod.o ;  true

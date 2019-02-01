@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/radio-wl1273.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/radio/radio-wl1273.ko drivers/media/radio/radio-wl1273.o drivers/media/radio/radio-wl1273.mod.o ;  true

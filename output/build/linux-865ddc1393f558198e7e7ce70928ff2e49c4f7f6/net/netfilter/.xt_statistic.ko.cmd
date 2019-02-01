@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_statistic.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/xt_statistic.ko net/netfilter/xt_statistic.o net/netfilter/xt_statistic.mod.o ;  true

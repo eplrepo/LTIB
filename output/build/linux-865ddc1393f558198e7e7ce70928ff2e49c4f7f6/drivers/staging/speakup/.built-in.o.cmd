@@ -1,0 +1,1 @@
+cmd_drivers/staging/speakup/built-in.o :=  rm -f drivers/staging/speakup/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/staging/speakup/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/si470x/radio-usb-si470x.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/radio/si470x/radio-usb-si470x.o drivers/media/radio/si470x/radio-si470x-usb.o drivers/media/radio/si470x/radio-si470x-common.o 

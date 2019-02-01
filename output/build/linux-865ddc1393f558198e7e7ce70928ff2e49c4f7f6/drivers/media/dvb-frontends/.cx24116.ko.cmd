@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cx24116.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/cx24116.ko drivers/media/dvb-frontends/cx24116.o drivers/media/dvb-frontends/cx24116.mod.o ;  true

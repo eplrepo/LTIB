@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dib7000p.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/dib7000p.ko drivers/media/dvb-frontends/dib7000p.o drivers/media/dvb-frontends/dib7000p.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-iqaudio-digi.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o sound/soc/bcm/snd-soc-iqaudio-digi.o sound/soc/bcm/iqaudio_digi.o 

@@ -1,0 +1,1 @@
+cmd_crypto/async_tx/async_xor.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o crypto/async_tx/async_xor.ko crypto/async_tx/async_xor.o crypto/async_tx/async_xor.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/cx231xx/cx231xx-dvb.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/cx231xx/cx231xx-dvb.ko drivers/media/usb/cx231xx/cx231xx-dvb.o drivers/media/usb/cx231xx/cx231xx-dvb.mod.o ;  true

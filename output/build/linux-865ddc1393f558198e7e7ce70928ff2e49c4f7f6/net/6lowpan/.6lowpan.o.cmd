@@ -1,0 +1,1 @@
+cmd_net/6lowpan/6lowpan.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o net/6lowpan/6lowpan.o net/6lowpan/core.o net/6lowpan/iphc.o net/6lowpan/nhc.o net/6lowpan/ndisc.o 

@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_connlabel.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/xt_connlabel.ko net/netfilter/xt_connlabel.o net/netfilter/xt_connlabel.mod.o ;  true

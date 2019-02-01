@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/ves1820.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/ves1820.ko drivers/media/dvb-frontends/ves1820.o drivers/media/dvb-frontends/ves1820.mod.o ;  true

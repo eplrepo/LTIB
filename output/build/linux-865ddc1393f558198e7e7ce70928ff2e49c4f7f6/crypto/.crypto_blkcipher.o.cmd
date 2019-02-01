@@ -1,0 +1,1 @@
+cmd_crypto/crypto_blkcipher.o := rm -f crypto/crypto_blkcipher.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD crypto/crypto_blkcipher.o crypto/ablkcipher.o crypto/blkcipher.o crypto/skcipher.o

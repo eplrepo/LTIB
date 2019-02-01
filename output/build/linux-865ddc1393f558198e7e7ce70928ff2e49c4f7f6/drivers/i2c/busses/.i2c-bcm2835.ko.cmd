@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-bcm2835.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/i2c/busses/i2c-bcm2835.ko drivers/i2c/busses/i2c-bcm2835.o drivers/i2c/busses/i2c-bcm2835.mod.o ;  true

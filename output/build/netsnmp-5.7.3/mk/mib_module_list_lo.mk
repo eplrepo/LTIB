@@ -1,0 +1,50 @@
+# contents below built automatically by configure; do not edit by hand
+mib_module_list_lo= \
+	ucd-snmp/dlmod.lo \
+	mibII/snmp_mib.lo \
+	mibII/system_mib.lo \
+	mibII/sysORTable.lo \
+	mibII/vacm_vars.lo \
+	host/hrh_storage.lo \
+	host/hrh_filesys.lo \
+	host/hrSWInstalledTable.lo \
+	host/hrSWRunTable.lo \
+	host/hr_system.lo \
+	host/hr_device.lo \
+	host/hr_other.lo \
+	host/hr_proc.lo \
+	host/hr_network.lo \
+	host/hr_print.lo \
+	host/hr_disk.lo \
+	host/hr_partition.lo \
+	snmpv3/snmpMPDStats_5_5.lo \
+	snmpv3/usmStats_5_5.lo \
+	snmpv3/snmpEngine.lo \
+	snmpv3/usmUser.lo \
+	mibII/updates.lo \
+	util_funcs.lo \
+	util_funcs/header_generic.lo \
+	mibII/vacm_context.lo \
+	host/data_access/swinst.lo \
+	host/data_access/swrun.lo \
+	host/hrSWRunPerfTable.lo \
+	util_funcs/header_simple_table.lo \
+	hardware/memory/hw_mem.lo \
+	hardware/memory/memory_linux.lo \
+	hardware/fsys/hw_fsys.lo \
+	hardware/fsys/fsys_mntent.lo \
+	host/data_access/swinst_apt.lo \
+	host/data_access/swrun_procfs_status.lo \
+	hardware/cpu/cpu.lo \
+	hardware/cpu/cpu_linux.lo \
+	if-mib/ifTable/ifTable.lo \
+	if-mib/data_access/interface.lo \
+	if-mib/ifTable/ifTable_interface.lo \
+	if-mib/ifTable/ifTable_data_access.lo \
+	if-mib/data_access/interface_linux.lo \
+	if-mib/data_access/interface_ioctl.lo \
+	ip-mib/data_access/ipaddress_common.lo \
+	ip-mib/data_access/ipaddress_linux.lo \
+	ip-mib/data_access/ipaddress_ioctl.lo
+
+# end configure generated code

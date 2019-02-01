@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_serial.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/usb/gadget/legacy/g_serial.o drivers/usb/gadget/legacy/serial.o 

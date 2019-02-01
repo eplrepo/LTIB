@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/of_mmc_spi.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/mmc/host/of_mmc_spi.ko drivers/mmc/host/of_mmc_spi.o drivers/mmc/host/of_mmc_spi.mod.o ;  true

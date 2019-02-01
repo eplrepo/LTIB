@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fb_ili9486.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/fbtft/fb_ili9486.ko drivers/staging/fbtft/fb_ili9486.o drivers/staging/fbtft/fb_ili9486.mod.o ;  true

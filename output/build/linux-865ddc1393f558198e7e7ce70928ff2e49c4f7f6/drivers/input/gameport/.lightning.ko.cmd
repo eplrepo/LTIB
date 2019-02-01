@@ -1,0 +1,1 @@
+cmd_drivers/input/gameport/lightning.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/gameport/lightning.ko drivers/input/gameport/lightning.o drivers/input/gameport/lightning.mod.o ;  true

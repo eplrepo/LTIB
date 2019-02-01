@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6t_frag.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/ipv6/netfilter/ip6t_frag.ko net/ipv6/netfilter/ip6t_frag.o net/ipv6/netfilter/ip6t_frag.mod.o ;  true

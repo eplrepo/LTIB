@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/udl/udl.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/udl/udl.ko drivers/gpu/drm/udl/udl.o drivers/gpu/drm/udl/udl.mod.o ;  true

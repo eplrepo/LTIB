@@ -1,0 +1,1 @@
+cmd_scripts/genksyms/genksyms := /usr/bin/gcc -O2 -I/home/epl/Jan_7/Linux-Test-Framework/output/host/include -L/home/epl/Jan_7/Linux-Test-Framework/output/host/lib -Wl,-rpath,/home/epl/Jan_7/Linux-Test-Framework/output/host/lib  -o scripts/genksyms/genksyms scripts/genksyms/genksyms.o scripts/genksyms/parse.tab.o scripts/genksyms/lex.lex.o  

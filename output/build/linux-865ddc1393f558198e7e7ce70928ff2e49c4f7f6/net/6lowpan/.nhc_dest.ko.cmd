@@ -1,0 +1,1 @@
+cmd_net/6lowpan/nhc_dest.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/6lowpan/nhc_dest.ko net/6lowpan/nhc_dest.o net/6lowpan/nhc_dest.mod.o ;  true

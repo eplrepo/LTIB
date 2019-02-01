@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-allo-katana-codec.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o sound/soc/bcm/snd-soc-allo-katana-codec.o sound/soc/bcm/allo-katana-codec.o 

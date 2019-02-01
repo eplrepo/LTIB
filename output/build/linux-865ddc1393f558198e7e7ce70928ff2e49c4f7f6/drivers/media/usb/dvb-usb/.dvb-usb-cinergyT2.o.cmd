@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-cinergyT2.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/media/usb/dvb-usb/dvb-usb-cinergyT2.o drivers/media/usb/dvb-usb/cinergyT2-core.o drivers/media/usb/dvb-usb/cinergyT2-fe.o 

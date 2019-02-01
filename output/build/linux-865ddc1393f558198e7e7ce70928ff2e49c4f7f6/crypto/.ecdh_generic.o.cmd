@@ -1,0 +1,1 @@
+cmd_crypto/ecdh_generic.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o crypto/ecdh_generic.o crypto/ecc.o crypto/ecdh.o crypto/ecdh_helper.o 

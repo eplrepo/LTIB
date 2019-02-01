@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/bcm3510.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/bcm3510.ko drivers/media/dvb-frontends/bcm3510.o drivers/media/dvb-frontends/bcm3510.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/aes-arm.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o arch/arm/crypto/aes-arm.o arch/arm/crypto/aes-cipher-core.o arch/arm/crypto/aes-cipher-glue.o 

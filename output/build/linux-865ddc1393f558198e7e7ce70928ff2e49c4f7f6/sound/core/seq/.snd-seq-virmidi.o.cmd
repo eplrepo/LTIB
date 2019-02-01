@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-virmidi.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o sound/core/seq/snd-seq-virmidi.o sound/core/seq/seq_virmidi.o 

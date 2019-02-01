@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o drivers/net/wireless/marvell/mwifiex/sdio.o 

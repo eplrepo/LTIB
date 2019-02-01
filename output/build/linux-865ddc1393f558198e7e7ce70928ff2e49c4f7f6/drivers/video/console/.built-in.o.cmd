@@ -1,0 +1,1 @@
+cmd_drivers/video/console/built-in.o :=  rm -f drivers/video/console/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/video/console/built-in.o drivers/video/console/dummycon.o 

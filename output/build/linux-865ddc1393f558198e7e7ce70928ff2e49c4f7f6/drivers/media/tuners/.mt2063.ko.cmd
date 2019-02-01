@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/mt2063.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/mt2063.ko drivers/media/tuners/mt2063.o drivers/media/tuners/mt2063.mod.o ;  true

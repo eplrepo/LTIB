@@ -1,0 +1,1 @@
+cmd_drivers/input/evdev.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/evdev.ko drivers/input/evdev.o drivers/input/evdev.mod.o ;  true

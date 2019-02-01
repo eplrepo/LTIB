@@ -1,0 +1,95 @@
+
+# Copyright (C) Igor Sysoev
+# Copyright (C) Nginx, Inc.
+
+
+echo $ngx_n "checking for $ngx_type size ...$ngx_c"
+
+cat << END >> $NGX_AUTOCONF_ERR
+
+----------------------------------------
+checking for $ngx_type size
+
+END
+
+ngx_size=
+
+cat << _EOF > $NGX_AUTOTEST.c
+
+#include <sys/types.h>
+#include <sys/time.h>
+$NGX_INCLUDE_UNISTD_H
+#include <signal.h>
+#include <stdio.h>
+#include <sys/resource.h>
+$NGX_INCLUDE_INTTYPES_H
+$NGX_INCLUDE_AUTO_CONFIG_H
+
+#if !defined( PASTE)
+#define PASTE2( x, y) x##y
+#define PASTE( x, y)  PASTE2( x, y)
+#endif /* PASTE */
+
+#define SAY_IF_SIZEOF( typename, type, size)   \\
+    static char PASTE( PASTE( PASTE( sizeof_, typename), _is_), size) \\
+    [(sizeof(type) == (size)) ? 1 : -1]
+
+SAY_IF_SIZEOF(TEST_TYPENAME, TEST_TYPE, TEST_SIZE);
+
+int main(void)
+{
+    return 0;
+}
+
+_EOF
+
+
+_ngx_typename=`echo "$ngx_type" | sed 's/ /_/g;s/\*/p/'`
+ngx_size="-1"
+ngx_size=`for i in 1 2 4 8 16 ; do \
+    $CC $CC_TEST_FLAGS $CC_AUX_FLAGS \
+    -DTEST_TYPENAME="$_ngx_typename" -DTEST_TYPE="$ngx_type" -DTEST_SIZE="$i" \
+    $NGX_AUTOTEST.c -o $NGX_AUTOTEST \
+    $NGX_LD_OPT $ngx_feature_libs >/dev/null 2>&1 || continue ;\
+    echo $i ; break ; done`
+
+rm -rf $NGX_AUTOTEST*
+
+if test -z $ngx_size ; then
+    ngx_size=-1
+fi
+
+if [ $ngx_size -gt 0 ]; then
+    echo " $ngx_size bytes"
+fi
+
+
+case $ngx_size in
+    4)
+        ngx_max_value=2147483647
+        ngx_max_len='(sizeof("-2147483648") - 1)'
+    ;;
+
+    8)
+        ngx_max_value=9223372036854775807LL
+        ngx_max_len='(sizeof("-9223372036854775808") - 1)'
+    ;;
+
+    *)
+        echo
+        echo "$0: error: can not detect $ngx_type size"
+
+        echo "----------"    >> $NGX_AUTOCONF_ERR
+        cat $NGX_AUTOTEST.c  >> $NGX_AUTOCONF_ERR
+        echo "----------"    >> $NGX_AUTOCONF_ERR
+        echo $ngx_test       >> $NGX_AUTOCONF_ERR
+        echo "----------"    >> $NGX_AUTOCONF_ERR
+
+        rm -rf $NGX_AUTOTEST*
+
+        exit 1
+esac
+
+
+rm -rf $NGX_AUTOTEST*
+

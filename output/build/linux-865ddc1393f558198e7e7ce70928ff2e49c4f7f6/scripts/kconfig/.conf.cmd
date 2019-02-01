@@ -1,0 +1,1 @@
+cmd_scripts/kconfig/conf := /usr/bin/gcc -O2 -I/home/epl/Jan_7/Linux-Test-Framework/output/host/include -L/home/epl/Jan_7/Linux-Test-Framework/output/host/lib -Wl,-rpath,/home/epl/Jan_7/Linux-Test-Framework/output/host/lib  -o scripts/kconfig/conf scripts/kconfig/conf.o scripts/kconfig/zconf.tab.o  

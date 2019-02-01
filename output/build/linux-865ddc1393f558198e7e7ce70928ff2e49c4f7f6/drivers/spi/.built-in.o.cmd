@@ -1,0 +1,1 @@
+cmd_drivers/spi/built-in.o :=  rm -f drivers/spi/built-in.o; /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ar rcSTPD drivers/spi/built-in.o drivers/spi/spi.o 

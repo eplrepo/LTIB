@@ -1,0 +1,2 @@
+/home/epl/Jan_7/Linux-Test-Framework/package/kvm-unit-tests/0001-Makefile-remove-Werror-to-avoid-build-failures.patch
+/home/epl/Jan_7/Linux-Test-Framework/package/kvm-unit-tests/0002-kvm-unit-tests-test-for-rdseed-rdrand.patch

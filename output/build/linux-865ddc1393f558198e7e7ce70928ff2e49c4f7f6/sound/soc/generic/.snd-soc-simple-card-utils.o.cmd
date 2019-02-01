@@ -1,0 +1,1 @@
+cmd_sound/soc/generic/snd-soc-simple-card-utils.o := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL    -r -o sound/soc/generic/snd-soc-simple-card-utils.o sound/soc/generic/simple-card-utils.o 

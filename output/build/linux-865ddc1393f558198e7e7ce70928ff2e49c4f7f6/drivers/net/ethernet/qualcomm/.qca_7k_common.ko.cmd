@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/qualcomm/qca_7k_common.ko := /home/epl/Jan_7/Linux-Test-Framework/output/host/bin/arm-buildroot-linux-uclibcgnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/qualcomm/qca_7k_common.ko drivers/net/ethernet/qualcomm/qca_7k_common.o drivers/net/ethernet/qualcomm/qca_7k_common.mod.o ;  true

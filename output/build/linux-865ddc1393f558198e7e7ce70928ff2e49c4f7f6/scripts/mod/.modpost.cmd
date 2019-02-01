@@ -1,0 +1,1 @@
+cmd_scripts/mod/modpost := /usr/bin/gcc -O2 -I/home/epl/Jan_7/Linux-Test-Framework/output/host/include -L/home/epl/Jan_7/Linux-Test-Framework/output/host/lib -Wl,-rpath,/home/epl/Jan_7/Linux-Test-Framework/output/host/lib  -o scripts/mod/modpost scripts/mod/modpost.o scripts/mod/file2alias.o scripts/mod/sumversion.o  
